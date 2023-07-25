@@ -1,0 +1,5 @@
+.idea
+.idea/
+/context.py
+/Lectures/Lecture_7/local_secrets.py
+/Lectures/Lecture_7/secrets_mongo.py
