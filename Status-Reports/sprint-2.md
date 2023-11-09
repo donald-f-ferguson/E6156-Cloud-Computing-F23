@@ -11,9 +11,9 @@ resource.
    4. Implement filtering using query strings for at least one resource.
    5. Implement pagination for at least one resource.<br><br>
 6. _Events, Notifications, Pub/Sub:_ 
-   1. One of the microservices should publish an event to an SNS
+   1. One of the microservices should publish an event to an SNS or Google Pub/Sub
    topic when a resource changes due to a PUT, POST or DELETE.
-   2. There should be a Lambda function that subscribes to the
+   2. There should be a Lambda function or Google function that subscribes to the
 topic and performs an action when notified. This can be as simple
 as sending an email, posting to Discord, ... ...<br><br>
 3. _Composition/Aggregators:_ Develop a simple microservice that
